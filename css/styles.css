@@ -394,11 +394,12 @@ a {
   margin-bottom: 0;
 }
 .quote__organization {
-  opacity: var(--color-headings);
+  color: var(--color-headings);
   opacity: 0.4;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: normal;
 }
+
 .quote__line {
   position: relative;
   bottom: 5px;
@@ -514,7 +515,7 @@ a {
 }
 /* Blocks */
 .block {
-  --padding-vertical: 6rem;
+  --padding-vertical: 5rem;
   padding: var(--padding-vertical) 2rem;
 }
 .block__heading {
