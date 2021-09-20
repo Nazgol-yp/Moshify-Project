@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Deploy your websites in less than 60 seconds."
+      content="Deploy your website in less than 60 seconds."
     />
-    <meta property="og:title" content="Moshify... " />
-    <meta property="og:description" content="Moshify... " />
+    <meta
+      property="og:title"
+      content="Moshify - Deploy your website in less than 60 seconds."
+    />
+    <meta
+      property="og:description"
+      content="Concluding project on HTML and CSS course under Mosh Hamedani as tutor."
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://" />
-    <meta property="og:url" content="https://moshified.com" />
-    <title>Moshify - Go Online for Just $9</title>
+    <title>Moshify - Go Online for Just $10</title>
+    <link rel="icon" href="images/favicon-sm.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon-md.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon-lg.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
@@ -39,16 +46,14 @@
     </header>
     <section class="block block--dark block--skewed-left hero">
       <div class="container grid grid--1x2">
-        <header class="block__header hero__content">
-          <h1 data-aos="fade-right" class="block__heading">
-            Cloud Hosting for Pros
-          </h1>
+        <header class="block__header hero__content" data-aos="fade-right">
+          <h1 class="block__heading">Cloud Hosting for Pros</h1>
           <p class="hero__tagline">
-            Deploy your websites in less than 60 seconds.
+            Deploy your website in less than 60 seconds.
           </p>
           <a href="" class="btn btn--accent btn--stretched">Get Started</a>
         </header>
-        <picture data-aos="zoom-in">
+        <picture data-aos="zoom-in-left">
           <source
             type="image/webp"
             srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
@@ -63,11 +68,8 @@
     </section>
     <section class="block container block-domain" data-aos="zoom-in-up">
       <header class="block__header">
-        <h2>Starting at $9 per month</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-          exercitationem?
-        </p>
+        <h2>Starting at $10 per month</h2>
+        <p>Order a premium plan for at least 6 months and get a free domain.</p>
       </header>
       <div class="input-group">
         <input
@@ -83,10 +85,10 @@
         </button>
       </div>
       <ul class="list block-domain__prices">
-        <li><span class="badge badge--secondary">.com $9</span></li>
+        <li>.com $9</li>
         <li>.sg $10</li>
         <li>.space $11</li>
-        <li>.info $14</li>
+        <li><span class="badge badge--secondary">.info $14</span></li>
         <li>.net $10</li>
         <li>.xyz $10</li>
       </ul>
@@ -96,18 +98,18 @@
         <div class="plan">
           <div class="card card--secondary">
             <header class="card__header">
-              <h3 class="plan__name">Entry</h3>
-              <span class="plan__price">$14</span>
+              <h3 class="plan__name">Starter</h3>
+              <span class="plan__price">$10</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--secondary badge--small">10% OFF</span>
               <span class="plan__description">Easy start on the cloud</span>
             </header>
             <div class="card__body">
               <ul class="list list--tick">
-                <li class="list__item">Unlimited Websites</li>
-                <li class="list__item">Unlimited Bandwidth</li>
-                <li class="list__item">100 GB SSD Sotrage</li>
-                <li class="list__item">3 GB RAM</li>
+                <li class="list__item">5 Websites</li>
+                <li class="list__item">50 GB Bandwidth</li>
+                <li class="list__item">30 GB SSD Sotrage</li>
+                <li class="list__item">2 Databases</li>
               </ul>
               <button class="btn btn--outline btn--block">Buy Now</button>
             </div>
@@ -116,18 +118,18 @@
         <div class="plan plan--popular">
           <div class="card card--primary">
             <header class="card__header">
-              <h3 class="plan__name">Entry</h3>
-              <span class="plan__price">$14</span>
+              <h3 class="plan__name">Premium</h3>
+              <span class="plan__price">$25</span>
               <span class="plan__billing-cycle">/month</span>
-              <span class="badge badge--primary badge--small">10% OFF</span>
-              <span class="plan__description">Easy start on the cloud</span>
+              <span class="badge badge--primary badge--small">15% OFF</span>
+              <span class="plan__description">Ideal for personal websites</span>
             </header>
             <div class="card__body">
               <ul class="list list--tick">
                 <li class="list__item">Unlimited Websites</li>
                 <li class="list__item">Unlimited Bandwidth</li>
-                <li class="list__item">100 GB SSD Sotrage</li>
-                <li class="list__item">3 GB RAM</li>
+                <li class="list__item">200 GB SSD Sotrage</li>
+                <li class="list__item">Unlimited Databases</li>
               </ul>
               <button class="btn btn--outline btn--block">Buy Now</button>
             </div>
@@ -136,18 +138,20 @@
         <div class="plan">
           <div class="card card--secondary">
             <header class="card__header">
-              <h3 class="plan__name">Entry</h3>
-              <span class="plan__price">$14</span>
+              <h3 class="plan__name">Business</h3>
+              <span class="plan__price">$15</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--secondary badge--small">10% OFF</span>
-              <span class="plan__description">Easy start on the cloud</span>
+              <span class="plan__description"
+                >Perfect for your online business</span
+              >
             </header>
             <div class="card__body">
               <ul class="list list--tick">
-                <li class="list__item">Unlimited Websites</li>
+                <li class="list__item">50 Websites</li>
                 <li class="list__item">Unlimited Bandwidth</li>
                 <li class="list__item">100 GB SSD Sotrage</li>
-                <li class="list__item">3 GB RAM</li>
+                <li class="list__item">2 Databases</li>
               </ul>
               <button class="btn btn--outline btn--block">Buy Now</button>
             </div>
@@ -158,10 +162,7 @@
     <section class="block container">
       <header class="block__header">
         <h2>Host on the Cloud to Keep Growing</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
-          voluptatem.
-        </p>
+        <p>Enjoy a better hosting experience on our hosting platform.</p>
       </header>
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-right">
@@ -172,8 +173,8 @@
           </span>
           <h3 class="feature__heading">Super Easy to Use</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            Get your website live as simple as a click of a button. Manage your
+            work from one single dashboard.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
@@ -190,7 +191,7 @@
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content" data-aos="fade-up">
+        <div class="feature__content" data-aos="flip-up">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#computer"></use>
@@ -198,8 +199,8 @@
           </span>
           <h3 class="feature__heading">Simply Fast Websites</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            Experience speed and security with Moshify's modern infrastructure
+            network.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
@@ -216,7 +217,7 @@
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content" data-aos="fade-up">
+        <div class="feature__content" data-aos="flip-up">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#wordpress"></use>
@@ -224,8 +225,8 @@
           </span>
           <h3 class="feature__heading">Wordpress Made Easy</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            Enjoy simplicity with optimized performance and preconfigured
+            Wordpress hosting.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
@@ -242,7 +243,7 @@
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content" data-aos="fade-up">
+        <div class="feature__content" data-aos="zoom-out-up">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#clock"></use>
@@ -250,12 +251,12 @@
           </span>
           <h3 class="feature__heading">24/7 Expert Support</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            Need help with your hosting? Our team members are available to
+            assist you around the clock.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture data-aos="zoom-in-up">
+        <picture data-aos="zoom-out-up">
           <source
             type="image/webp"
             srcset="images/support.webp 1x, images/support@2x.webp 2x"
@@ -295,9 +296,8 @@
               <div class="media__body">
                 <h3 class="media__title">Easy Start & Managed Updates</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
-                  vel perspiciatis consequuntur ab.
+                  Build your website with design tools that simplify managing
+                  and updating everything without any coding.
                 </p>
               </div>
             </div>
@@ -312,9 +312,9 @@
               <div class="media__body">
                 <h3 class="media__title">Staging, GIT & WP-CLI</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
-                  vel perspiciatis consequuntur ab.
+                  Get plugins and configure multisite installations with our new
+                  tool which also helps to create copies of your website, test
+                  and push the changes to your live site.
                 </p>
               </div>
             </div>
@@ -329,9 +329,9 @@
               <div class="media__body">
                 <h3 class="media__title">Dynamic Caching & More</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
-                  vel perspiciatis consequuntur ab.
+                  Boost the performance of your website using NGINX-powered
+                  Dynamic Caching system without you needing to configure
+                  anything.
                 </p>
               </div>
             </div>
@@ -342,9 +342,7 @@
     <section class="block" data-aos="zoom-in">
       <header class="block__header">
         <h2>What our Customers are Saying</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ipsam.
-        </p>
+        <p>Trusted by 1+ million customers around the world.</p>
       </header>
       <div class="container">
         <div class="card testimonial">
@@ -362,9 +360,9 @@
             </div>
             <blockquote class="quote">
               <p class="quote__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt optio officiis dolore earum error eaque perferendis
-                laudantium sed praesentium dolorum.
+                Moshify is an amazing web building experience. It's flexible and
+                easy to use. I faced very few issues which were resolved quickly
+                via support chat.
               </p>
               <footer>
                 <div class="media">
@@ -389,17 +387,12 @@
         <div class="grid grid--1x2">
           <div class="callout__content">
             <h2 class="callout__heading">Ready to Get Started?</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              voluptate tempora qui distinctio consequatur aliquid pariatur
-              cupiditate quas cum fugit.
-            </p>
+            <p>Start your free website trial today. No credit card required.</p>
           </div>
           <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
         </div>
       </div>
     </div>
-
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
@@ -464,7 +457,7 @@
         </section>
         <div class="footer__brand">
           <img src="images/logo.svg" alt="" />
-          <p class="footer__copyright">Copyright 2020 Mosh Hamedani</p>
+          <p class="footer__copyright">Copyright 2021 Mosh Hamedani</p>
         </div>
       </div>
     </footer>
